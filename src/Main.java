@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static String getRandomWord() {
-        try (BufferedReader br = new BufferedReader(new FileReader("/Users/Andy/Desktop/Java/Hangman/src/Words"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("/Users/User/Desktop/Java/Hangman/src/Words"))) {
             ArrayList<String> wordsList = new ArrayList<>();
             String line;
             while ((line = br.readLine()) != null) {
